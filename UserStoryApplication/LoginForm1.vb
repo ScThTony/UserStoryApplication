@@ -1,5 +1,5 @@
 ﻿Option Infer On
-Imports System.Data.Entity
+
 
 Public Class LoginForm1
 
@@ -32,4 +32,5 @@ Public Class LoginForm1
         Me.Close()
     End Sub
 
+   
 End Class

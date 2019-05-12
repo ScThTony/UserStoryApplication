@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class NewUserStoryForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class NewUserStoryForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -62,19 +62,19 @@ Partial Class NewUserStoryForm
         Me.TA_UserStoryTable = New UserStoryApplication.DS_Group32TableAdapters.UserStoryTableTableAdapter()
         Me.TA_UserStory_MemberTable = New UserStoryApplication.DS_Group32TableAdapters.UserStory_MemberTableTableAdapter()
         Me.TA_TestCasesTable = New UserStoryApplication.DS_Group32TableAdapters.TestCasesTableTableAdapter()
-        CType(Me.BSProg2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.DS_Group321,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.BSProg1,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Programmer2Box.SuspendLayout
-        Me.Programmer1Box.SuspendLayout
-        CType(Me.MemberTableBindingSource,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.SuspendLayout
+        CType(Me.BSProg2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DS_Group321, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BSProg1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Programmer2Box.SuspendLayout()
+        Me.Programmer1Box.SuspendLayout()
+        CType(Me.MemberTableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
         '
         'Label11
         '
-        Me.Label11.AutoSize = true
+        Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.SystemColors.Control
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(75, 39)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(117, 20)
@@ -83,7 +83,7 @@ Partial Class NewUserStoryForm
         '
         'Label3
         '
-        Me.Label3.AutoSize = true
+        Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(170, 65)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(106, 20)
@@ -92,7 +92,7 @@ Partial Class NewUserStoryForm
         '
         'cbResponsibility2
         '
-        Me.cbResponsibility2.FormattingEnabled = true
+        Me.cbResponsibility2.FormattingEnabled = True
         Me.cbResponsibility2.Location = New System.Drawing.Point(174, 88)
         Me.cbResponsibility2.Name = "cbResponsibility2"
         Me.cbResponsibility2.Size = New System.Drawing.Size(121, 28)
@@ -100,9 +100,9 @@ Partial Class NewUserStoryForm
         '
         'Label12
         '
-        Me.Label12.AutoSize = true
+        Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.SystemColors.Control
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(82, 173)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(168, 20)
@@ -111,9 +111,9 @@ Partial Class NewUserStoryForm
         '
         'Label5
         '
-        Me.Label5.AutoSize = true
+        Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.SystemColors.Control
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(403, 173)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(161, 20)
@@ -122,7 +122,7 @@ Partial Class NewUserStoryForm
         '
         'Label1
         '
-        Me.Label1.AutoSize = true
+        Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 62)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(51, 20)
@@ -133,7 +133,7 @@ Partial Class NewUserStoryForm
         '
         Me.cbProgrammer2.DataSource = Me.BSProg2
         Me.cbProgrammer2.DisplayMember = "FirstName"
-        Me.cbProgrammer2.FormattingEnabled = true
+        Me.cbProgrammer2.FormattingEnabled = True
         Me.cbProgrammer2.Location = New System.Drawing.Point(7, 88)
         Me.cbProgrammer2.Name = "cbProgrammer2"
         Me.cbProgrammer2.Size = New System.Drawing.Size(121, 28)
@@ -142,7 +142,7 @@ Partial Class NewUserStoryForm
         '
         'BSProg2
         '
-        Me.BSProg2.AllowNew = true
+        Me.BSProg2.AllowNew = True
         Me.BSProg2.DataMember = "MemberTable"
         Me.BSProg2.DataSource = Me.DS_Group321
         '
@@ -153,9 +153,9 @@ Partial Class NewUserStoryForm
         '
         'Label10
         '
-        Me.Label10.AutoSize = true
+        Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.SystemColors.Control
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(380, 39)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(80, 20)
@@ -164,9 +164,9 @@ Partial Class NewUserStoryForm
         '
         'Label9
         '
-        Me.Label9.AutoSize = true
+        Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.SystemColors.Control
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(569, 39)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(83, 20)
@@ -175,7 +175,7 @@ Partial Class NewUserStoryForm
         '
         'Label2
         '
-        Me.Label2.AutoSize = true
+        Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(170, 62)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(106, 20)
@@ -184,7 +184,7 @@ Partial Class NewUserStoryForm
         '
         'cbResponsibility1
         '
-        Me.cbResponsibility1.FormattingEnabled = true
+        Me.cbResponsibility1.FormattingEnabled = True
         Me.cbResponsibility1.Location = New System.Drawing.Point(174, 88)
         Me.cbResponsibility1.Name = "cbResponsibility1"
         Me.cbResponsibility1.Size = New System.Drawing.Size(121, 28)
@@ -192,9 +192,9 @@ Partial Class NewUserStoryForm
         '
         'Label8
         '
-        Me.Label8.AutoSize = true
+        Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.SystemColors.Control
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(789, 39)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(77, 20)
@@ -203,9 +203,9 @@ Partial Class NewUserStoryForm
         '
         'lblPriority
         '
-        Me.lblPriority.AutoSize = true
+        Me.lblPriority.AutoSize = True
         Me.lblPriority.BackColor = System.Drawing.SystemColors.Control
-        Me.lblPriority.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.lblPriority.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPriority.Location = New System.Drawing.Point(1025, 39)
         Me.lblPriority.Name = "lblPriority"
         Me.lblPriority.Size = New System.Drawing.Size(56, 20)
@@ -214,7 +214,7 @@ Partial Class NewUserStoryForm
         '
         'Label
         '
-        Me.Label.AutoSize = true
+        Me.Label.AutoSize = True
         Me.Label.Location = New System.Drawing.Point(6, 62)
         Me.Label.Name = "Label"
         Me.Label.Size = New System.Drawing.Size(51, 20)
@@ -223,9 +223,9 @@ Partial Class NewUserStoryForm
         '
         'lblStatus
         '
-        Me.lblStatus.AutoSize = true
+        Me.lblStatus.AutoSize = True
         Me.lblStatus.BackColor = System.Drawing.SystemColors.Control
-        Me.lblStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.lblStatus.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblStatus.Location = New System.Drawing.Point(1025, 173)
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(56, 20)
@@ -236,7 +236,7 @@ Partial Class NewUserStoryForm
         '
         Me.cbProgrammer1.DataSource = Me.BSProg1
         Me.cbProgrammer1.DisplayMember = "FirstName"
-        Me.cbProgrammer1.FormattingEnabled = true
+        Me.cbProgrammer1.FormattingEnabled = True
         Me.cbProgrammer1.Location = New System.Drawing.Point(7, 88)
         Me.cbProgrammer1.Name = "cbProgrammer1"
         Me.cbProgrammer1.Size = New System.Drawing.Size(121, 28)
@@ -245,15 +245,15 @@ Partial Class NewUserStoryForm
         '
         'BSProg1
         '
-        Me.BSProg1.AllowNew = true
+        Me.BSProg1.AllowNew = True
         Me.BSProg1.DataMember = "MemberTable"
         Me.BSProg1.DataSource = Me.DS_Group321
         '
         'Label4
         '
-        Me.Label4.AutoSize = true
+        Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.Control
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(509, 415)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(156, 20)
@@ -262,13 +262,13 @@ Partial Class NewUserStoryForm
         '
         'RecordUserStoryButton
         '
-        Me.RecordUserStoryButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 18!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.RecordUserStoryButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RecordUserStoryButton.Location = New System.Drawing.Point(921, 502)
         Me.RecordUserStoryButton.Name = "RecordUserStoryButton"
         Me.RecordUserStoryButton.Size = New System.Drawing.Size(241, 144)
         Me.RecordUserStoryButton.TabIndex = 39
         Me.RecordUserStoryButton.Text = "Record User Story"
-        Me.RecordUserStoryButton.UseVisualStyleBackColor = true
+        Me.RecordUserStoryButton.UseVisualStyleBackColor = True
         '
         'Programmer2Box
         '
@@ -276,12 +276,12 @@ Partial Class NewUserStoryForm
         Me.Programmer2Box.Controls.Add(Me.Label1)
         Me.Programmer2Box.Controls.Add(Me.cbResponsibility2)
         Me.Programmer2Box.Controls.Add(Me.cbProgrammer2)
-        Me.Programmer2Box.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Programmer2Box.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Programmer2Box.Location = New System.Drawing.Point(458, 502)
         Me.Programmer2Box.Name = "Programmer2Box"
         Me.Programmer2Box.Size = New System.Drawing.Size(301, 144)
         Me.Programmer2Box.TabIndex = 38
-        Me.Programmer2Box.TabStop = false
+        Me.Programmer2Box.TabStop = False
         Me.Programmer2Box.Text = "Programmer 2"
         '
         'Programmer1Box
@@ -290,12 +290,12 @@ Partial Class NewUserStoryForm
         Me.Programmer1Box.Controls.Add(Me.Label)
         Me.Programmer1Box.Controls.Add(Me.cbResponsibility1)
         Me.Programmer1Box.Controls.Add(Me.cbProgrammer1)
-        Me.Programmer1Box.Font = New System.Drawing.Font("Microsoft Sans Serif", 12!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Programmer1Box.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Programmer1Box.Location = New System.Drawing.Point(79, 502)
         Me.Programmer1Box.Name = "Programmer1Box"
         Me.Programmer1Box.Size = New System.Drawing.Size(301, 144)
         Me.Programmer1Box.TabIndex = 37
-        Me.Programmer1Box.TabStop = false
+        Me.Programmer1Box.TabStop = False
         Me.Programmer1Box.Text = "Programmer 1"
         '
         'btnRemoveTestCase
@@ -305,7 +305,7 @@ Partial Class NewUserStoryForm
         Me.btnRemoveTestCase.Size = New System.Drawing.Size(186, 23)
         Me.btnRemoveTestCase.TabIndex = 36
         Me.btnRemoveTestCase.Text = "Remove Test Case"
-        Me.btnRemoveTestCase.UseVisualStyleBackColor = true
+        Me.btnRemoveTestCase.UseVisualStyleBackColor = True
         '
         'btnAddNewTestCase
         '
@@ -314,11 +314,11 @@ Partial Class NewUserStoryForm
         Me.btnAddNewTestCase.Size = New System.Drawing.Size(186, 23)
         Me.btnAddNewTestCase.TabIndex = 35
         Me.btnAddNewTestCase.Text = "Add New Test Case"
-        Me.btnAddNewTestCase.UseVisualStyleBackColor = true
+        Me.btnAddNewTestCase.UseVisualStyleBackColor = True
         '
         'lboxTestCase
         '
-        Me.lboxTestCase.FormattingEnabled = true
+        Me.lboxTestCase.FormattingEnabled = True
         Me.lboxTestCase.Location = New System.Drawing.Point(407, 313)
         Me.lboxTestCase.Name = "lboxTestCase"
         Me.lboxTestCase.Size = New System.Drawing.Size(586, 95)
@@ -326,7 +326,7 @@ Partial Class NewUserStoryForm
         '
         'StatusComboBox
         '
-        Me.StatusComboBox.FormattingEnabled = true
+        Me.StatusComboBox.FormattingEnabled = True
         Me.StatusComboBox.Location = New System.Drawing.Point(1029, 196)
         Me.StatusComboBox.Name = "StatusComboBox"
         Me.StatusComboBox.Size = New System.Drawing.Size(133, 21)
@@ -335,7 +335,7 @@ Partial Class NewUserStoryForm
         'tbNewTestCase
         '
         Me.tbNewTestCase.Location = New System.Drawing.Point(407, 196)
-        Me.tbNewTestCase.Multiline = true
+        Me.tbNewTestCase.Multiline = True
         Me.tbNewTestCase.Name = "tbNewTestCase"
         Me.tbNewTestCase.Size = New System.Drawing.Size(586, 76)
         Me.tbNewTestCase.TabIndex = 32
@@ -343,14 +343,14 @@ Partial Class NewUserStoryForm
         'UserStoryDescription
         '
         Me.UserStoryDescription.Location = New System.Drawing.Point(79, 196)
-        Me.UserStoryDescription.Multiline = true
+        Me.UserStoryDescription.Multiline = True
         Me.UserStoryDescription.Name = "UserStoryDescription"
         Me.UserStoryDescription.Size = New System.Drawing.Size(265, 212)
         Me.UserStoryDescription.TabIndex = 31
         '
         'PriorityComboBox
         '
-        Me.PriorityComboBox.FormattingEnabled = true
+        Me.PriorityComboBox.FormattingEnabled = True
         Me.PriorityComboBox.Location = New System.Drawing.Point(1029, 62)
         Me.PriorityComboBox.Name = "PriorityComboBox"
         Me.PriorityComboBox.Size = New System.Drawing.Size(133, 21)
@@ -372,7 +372,7 @@ Partial Class NewUserStoryForm
         '
         'UserRoleComboBox
         '
-        Me.UserRoleComboBox.FormattingEnabled = true
+        Me.UserRoleComboBox.FormattingEnabled = True
         Me.UserRoleComboBox.Location = New System.Drawing.Point(384, 63)
         Me.UserRoleComboBox.Name = "UserRoleComboBox"
         Me.UserRoleComboBox.Size = New System.Drawing.Size(157, 21)
@@ -381,7 +381,7 @@ Partial Class NewUserStoryForm
         'UserStoryTitle
         '
         Me.UserStoryTitle.Location = New System.Drawing.Point(79, 63)
-        Me.UserStoryTitle.Multiline = true
+        Me.UserStoryTitle.Multiline = True
         Me.UserStoryTitle.Name = "UserStoryTitle"
         Me.UserStoryTitle.Size = New System.Drawing.Size(265, 54)
         Me.UserStoryTitle.TabIndex = 26
@@ -392,23 +392,23 @@ Partial Class NewUserStoryForm
         '
         'TA_MemberTable
         '
-        Me.TA_MemberTable.ClearBeforeFill = true
+        Me.TA_MemberTable.ClearBeforeFill = True
         '
         'TA_UserStoryTable
         '
-        Me.TA_UserStoryTable.ClearBeforeFill = true
+        Me.TA_UserStoryTable.ClearBeforeFill = True
         '
         'TA_UserStory_MemberTable
         '
-        Me.TA_UserStory_MemberTable.ClearBeforeFill = true
+        Me.TA_UserStory_MemberTable.ClearBeforeFill = True
         '
         'TA_TestCasesTable
         '
-        Me.TA_TestCasesTable.ClearBeforeFill = true
+        Me.TA_TestCasesTable.ClearBeforeFill = True
         '
         'NewUserStoryForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1236, 684)
         Me.Controls.Add(Me.Label11)
@@ -436,18 +436,18 @@ Partial Class NewUserStoryForm
         Me.Controls.Add(Me.UserStoryTitle)
         Me.Name = "NewUserStoryForm"
         Me.Text = "NewUserStoryForm"
-        CType(Me.BSProg2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.DS_Group321,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.BSProg1,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Programmer2Box.ResumeLayout(false)
-        Me.Programmer2Box.PerformLayout
-        Me.Programmer1Box.ResumeLayout(false)
-        Me.Programmer1Box.PerformLayout
-        CType(Me.MemberTableBindingSource,System.ComponentModel.ISupportInitialize).EndInit
-        Me.ResumeLayout(false)
-        Me.PerformLayout
+        CType(Me.BSProg2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DS_Group321, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BSProg1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Programmer2Box.ResumeLayout(False)
+        Me.Programmer2Box.PerformLayout()
+        Me.Programmer1Box.ResumeLayout(False)
+        Me.Programmer1Box.PerformLayout()
+        CType(Me.MemberTableBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
-End Sub
+    End Sub
 
     Friend WithEvents Label11 As Label
     Friend WithEvents Label3 As Label

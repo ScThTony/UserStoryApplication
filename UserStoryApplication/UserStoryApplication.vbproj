@@ -84,6 +84,23 @@
     <Compile Include="DS_Group32.vb">
       <DependentUpon>DS_Group32.xsd</DependentUpon>
     </Compile>
+    <Compile Include="group32DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>group32DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MemberForm.Designer.vb">
+      <DependentUpon>MemberForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MemberForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestCasesForm.Designer.vb">
+      <DependentUpon>TestCasesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestCasesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="UserStories.Designer.vb">
       <DependentUpon>UserStories.vb</DependentUpon>
     </Compile>
@@ -120,6 +137,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MemberForm.resx">
+      <DependentUpon>MemberForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCasesForm.resx">
+      <DependentUpon>TestCasesForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserStories.resx">
       <DependentUpon>UserStories.vb</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +167,17 @@
     </None>
     <None Include="DS_Group32.xss">
       <DependentUpon>DS_Group32.xsd</DependentUpon>
+    </None>
+    <None Include="group32DataSet.xsc">
+      <DependentUpon>group32DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="group32DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>group32DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="group32DataSet.xss">
+      <DependentUpon>group32DataSet.xsd</DependentUpon>
     </None>
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

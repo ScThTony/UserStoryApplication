@@ -78,4 +78,9 @@ Public Class NewUserStoryForm
 
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) 
+        USA_Parent.Show()
+        Me.Close()
+    End Sub
 End Class

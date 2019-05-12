@@ -12,7 +12,8 @@ Public Class LoginForm1
     ' such as the username, display name, etc.
 
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
-        MemberTableTableAdapter1.FillBy(DS_Group32.MemberTable, UsernameTextBox.Text, PasswordTextBox.Text)        
+        MemberTableTableAdapter1.FillBy(DS_Group32.MemberTable, UsernameTextBox.Text, PasswordTextBox.Text)
+
         If DS_Group32.MemberTable.Rows.Count > 0 Then
             MsgBox("Welcome. You will now be directed to the system.")
             Me.Close()
@@ -32,5 +33,7 @@ Public Class LoginForm1
         Me.Close()
     End Sub
 
-   
+
+
+
 End Class

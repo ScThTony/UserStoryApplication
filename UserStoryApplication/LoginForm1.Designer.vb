@@ -30,6 +30,7 @@ Partial Class LoginForm1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LoginForm1))
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         Me.UsernameLabel = New System.Windows.Forms.Label()
@@ -40,24 +41,28 @@ Partial Class LoginForm1
         Me.Cancel = New System.Windows.Forms.Button()
         Me.DS_Group32 = New UserStoryApplication.DS_Group32()
         Me.MemberTableTableAdapter1 = New UserStoryApplication.DS_Group32TableAdapters.MemberTableTableAdapter()
-        CType(Me.LogoPictureBox,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.DS_Group32,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.SuspendLayout
+        Me.MemberTableBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DS_Group32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemberTableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
         '
         'LogoPictureBox
         '
-        Me.LogoPictureBox.Image = CType(resources.GetObject("LogoPictureBox.Image"),System.Drawing.Image)
+        Me.LogoPictureBox.Image = CType(resources.GetObject("LogoPictureBox.Image"), System.Drawing.Image)
         Me.LogoPictureBox.Location = New System.Drawing.Point(0, 0)
         Me.LogoPictureBox.Name = "LogoPictureBox"
         Me.LogoPictureBox.Size = New System.Drawing.Size(165, 193)
         Me.LogoPictureBox.TabIndex = 0
-        Me.LogoPictureBox.TabStop = false
+        Me.LogoPictureBox.TabStop = False
         '
         'UsernameLabel
         '
         Me.UsernameLabel.Location = New System.Drawing.Point(172, 24)
         Me.UsernameLabel.Name = "UsernameLabel"
-        Me.UsernameLabel.Size = New System.Drawing.Size(220, 23)
+        Me.UsernameLabel.Size = New System.Drawing.Size(66, 23)
         Me.UsernameLabel.TabIndex = 0
         Me.UsernameLabel.Text = "&User name"
         Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -73,7 +78,7 @@ Partial Class LoginForm1
         '
         'UsernameTextBox
         '
-        Me.UsernameTextBox.Location = New System.Drawing.Point(174, 44)
+        Me.UsernameTextBox.Location = New System.Drawing.Point(171, 50)
         Me.UsernameTextBox.Name = "UsernameTextBox"
         Me.UsernameTextBox.Size = New System.Drawing.Size(220, 20)
         Me.UsernameTextBox.TabIndex = 1
@@ -110,15 +115,24 @@ Partial Class LoginForm1
         '
         'MemberTableTableAdapter1
         '
-        Me.MemberTableTableAdapter1.ClearBeforeFill = true
+        Me.MemberTableTableAdapter1.ClearBeforeFill = True
+        '
+        'MemberTableBindingSource
+        '
+        Me.MemberTableBindingSource.DataMember = "MemberTable"
+        Me.MemberTableBindingSource.DataSource = Me.DS_Group32
+        '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
         '
         'LoginForm1
         '
         Me.AcceptButton = Me.OK
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel
-        Me.ClientSize = New System.Drawing.Size(401, 192)
+        Me.ClientSize = New System.Drawing.Size(427, 192)
         Me.Controls.Add(Me.Cancel)
         Me.Controls.Add(Me.OK)
         Me.Controls.Add(Me.PasswordTextBox)
@@ -127,19 +141,23 @@ Partial Class LoginForm1
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.LogoPictureBox)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MaximizeBox = false
-        Me.MinimizeBox = false
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "LoginForm1"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Login"
-        CType(Me.LogoPictureBox,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.DS_Group32,System.ComponentModel.ISupportInitialize).EndInit
-        Me.ResumeLayout(false)
+        CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DS_Group32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemberTableBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
         Me.PerformLayout
 
 End Sub
     Friend WithEvents Group32DataSet1 As DS_Group32
     Friend WithEvents DS_Group32 As DS_Group32
     Friend WithEvents MemberTableTableAdapter1 As DS_Group32TableAdapters.MemberTableTableAdapter
+    Friend WithEvents MemberTableBindingSource As BindingSource
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class

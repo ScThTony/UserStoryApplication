@@ -53,7 +53,7 @@ Partial Class USA_Parent
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1155, 24)
         Me.MenuStrip1.TabIndex = 1
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.MenuStrip1.Text = "Status"
         '
         'AccessControlToolStripMenuItem
         '
@@ -111,25 +111,25 @@ Partial Class USA_Parent
         'ViewToolStripMenuItem1
         '
         Me.ViewToolStripMenuItem1.Name = "ViewToolStripMenuItem1"
-        Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(109, 22)
         Me.ViewToolStripMenuItem1.Text = "View"
         '
         'EditToolStripMenuItem1
         '
         Me.EditToolStripMenuItem1.Name = "EditToolStripMenuItem1"
-        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.EditToolStripMenuItem1.Size = New System.Drawing.Size(109, 22)
         Me.EditToolStripMenuItem1.Text = "Edit"
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'SearchToolStripMenuItem1
         '
         Me.SearchToolStripMenuItem1.Name = "SearchToolStripMenuItem1"
-        Me.SearchToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.SearchToolStripMenuItem1.Size = New System.Drawing.Size(109, 22)
         Me.SearchToolStripMenuItem1.Text = "Search"
         '
         'TestCasesToolStripMenuItem
